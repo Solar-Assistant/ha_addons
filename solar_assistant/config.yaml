@@ -2,7 +2,7 @@ name: SolarAssistant
 version: "0.2.0"
 slug: solar_assistant
 description: Installs the SolarAssistant Home Assistant integration.
-url: https://github.com/Solar-Assistant/ha-solar-assistant
+url: https://github.com/Solar-Assistant/ha_solar_assistant
 arch:
   - aarch64
   - amd64

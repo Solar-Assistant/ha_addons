@@ -1,6 +1,6 @@
 # SolarAssistant
 
-Installs the [SolarAssistant](https://github.com/Solar-Assistant/ha-solar-assistant) Home Assistant integration and restarts Home Assistant Core.
+Installs the [SolarAssistant](https://github.com/Solar-Assistant/ha_solar_assistant) Home Assistant integration and restarts Home Assistant Core.
 
 ## Usage
 

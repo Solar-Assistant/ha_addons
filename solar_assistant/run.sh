@@ -7,7 +7,7 @@ ZIP=/tmp/solar_assistant.zip
 bashio::log.info "Installing SolarAssistant integration v${VERSION}..."
 
 curl -fsSL \
-    "https://github.com/Solar-Assistant/ha-solar-assistant/releases/download/v${VERSION}/solar_assistant.zip" \
+    "https://github.com/Solar-Assistant/ha_solar_assistant/releases/download/v${VERSION}/solar_assistant.zip" \
     -o "${ZIP}"
 
 rm -rf "${DEST}"
