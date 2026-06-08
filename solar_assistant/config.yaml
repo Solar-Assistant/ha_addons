@@ -1,16 +1,17 @@
 name: SolarAssistant
 version: "0.2.0"
 slug: solar_assistant
-description: Installs the SolarAssistant Home Assistant integration.
+description: Installs the SolarAssistant integration. Home Assistant Core will be restarted after installation.
 url: https://github.com/Solar-Assistant/ha_solar_assistant
 arch:
   - aarch64
   - amd64
-  - armhf
-  - armv7
-  - i386
 startup: once
 boot: manual
 map:
   - config:rw
 init: false
+# Needs Supervisor API access with the "homeassistant" role to call
+# bashio::core.restart (POST /core/restart) after installing the integration.
+hassio_api: true
+hassio_role: homeassistant
