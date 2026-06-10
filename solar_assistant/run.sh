@@ -1,7 +1,7 @@
 #!/usr/bin/with-contenv bashio
 
 VERSION=$(bashio::addon.version)
-DEST=/config/custom_components/solar_assistant
+DEST=/homeassistant/custom_components/solar_assistant
 ZIP=/tmp/solar_assistant.zip
 
 bashio::log.info "Installing SolarAssistant integration v${VERSION}..."
@@ -11,7 +11,7 @@ curl -fsSL \
     -o "${ZIP}"
 
 rm -rf "${DEST}"
-mkdir -p /config/custom_components
+mkdir -p /homeassistant/custom_components
 unzip -q "${ZIP}" "custom_components/solar_assistant/*" -d /tmp/sa
 cp -r /tmp/sa/custom_components/solar_assistant "${DEST}"
 

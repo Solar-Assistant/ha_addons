@@ -9,7 +9,8 @@ arch:
 startup: once
 boot: manual
 map:
-  - config:rw
+  - type: homeassistant_config
+    read_only: false
 init: false
 # Needs Supervisor API access with the "homeassistant" role to call
 # bashio::core.restart (POST /core/restart) after installing the integration.
