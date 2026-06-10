@@ -1,5 +1,5 @@
 name: SolarAssistant
-version: "0.2.0"
+version: "0.1.0"
 slug: solar_assistant
 description: Installs the SolarAssistant integration. Home Assistant Core will be restarted after installation.
 url: https://github.com/Solar-Assistant/ha_solar_assistant
