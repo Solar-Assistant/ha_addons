@@ -4,9 +4,9 @@ Home Assistant add-on repository for [SolarAssistant](https://solar-assistant.io
 
 ## Installation
 
-1. Go to **Settings → Add-ons → Add-on Store → ⋮ → Repositories**.
+1. Go to **Settings → Apps → Install App → ⋮ → Repositories**.
 2. Add `https://github.com/Solar-Assistant/ha_addons` and click **Add**.
-3. Find **SolarAssistant** in the store, install it, and click **Start**.
+3. Find **SolarAssistant** in the app store, install it, and click **Start**.
 
 Home Assistant Core restarts automatically and the SolarAssistant integration is ready to configure under **Settings → Devices & Services**.
 
