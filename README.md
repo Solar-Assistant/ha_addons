@@ -18,4 +18,8 @@ Home Assistant Core restarts automatically and the SolarAssistant integration is
 
 ## License
 
-This repository is licensed under the [Apache License 2.0](LICENSE). It does not cover the SolarAssistant platform, including the downloadable device software and cloud infrastructure, which are proprietary and distributed under separate terms.
+Apache 2.0 - see [LICENSE](LICENSE).
+
+This licence covers the Home Assistant add-on in this repository only. The SolarAssistant platform, including the downloadable device
+software and cloud infrastructure, is proprietary and distributed under separate terms. See [NOTICE](NOTICE) for the copyright and scope
+statement.
