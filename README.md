@@ -16,6 +16,12 @@ Home Assistant Core restarts automatically and the SolarAssistant integration is
 |---|---|
 | [SolarAssistant](solar_assistant/) | Installs the SolarAssistant Home Assistant integration |
 
+## Roadmap
+
+### Add-on validation
+
+Run the Home Assistant add-on linter as a local preflight to validate each add-on's `config.yaml` before publishing.
+
 ## License
 
 Apache 2.0 - see [LICENSE](LICENSE).
