@@ -7,7 +7,7 @@ arch:
   - aarch64
   - amd64
 startup: once
-boot: manual
+boot: manual_only
 map:
   - type: homeassistant_config
     read_only: false
